@@ -3,7 +3,7 @@
 	"id": "integrated-industry",
 	"version": "${version}",
 	"name": "Integrated Industry",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Integrated Industry",
 	"authors": [
 		"TP211"
 	],
@@ -37,7 +37,7 @@
 		"minecraft": "~1.20.1",
 		"java": ">=17",
 		"fabric-api": "*",
-		"": ""
+		"iienergylib": "=1.0.0"
 	},
 	"suggests": {
 		"another-mod": "*"
