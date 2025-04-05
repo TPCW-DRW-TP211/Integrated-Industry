@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "integrated-industry",
+	"version": "${version}",
+	"name": "Integrated Industry",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"TP211"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": "https://github.com/TPCW-DRW-TP211/Integrated-Industry"
+	},
+	"license": "MIT",
+	"icon": "assets/integrated-industry/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"org.tp211.integrated_industry.IntegratedIndustry"
+		],
+		"client": [
+			"org.tp211.integrated_industry.IntegratedIndustryClient"
+		],
+		"fabric-datagen": [
+			"org.tp211.integrated_industry.IntegratedIndustryDataGenerator"
+		]
+	},
+	"mixins": [
+		"integrated-industry.mixins.json",
+		{
+			"config": "integrated-industry.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.12",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

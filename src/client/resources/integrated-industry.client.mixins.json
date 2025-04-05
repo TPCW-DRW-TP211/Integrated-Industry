@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "org.tp211.integrated_industry.mixin.client",
+	"compatibilityLevel": "JAVA_17",
+	"client": [
+		"ExampleClientMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
