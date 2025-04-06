@@ -20,18 +20,9 @@
 		],
 		"client": [
 			"org.tp211.integrated_industry.IntegratedIndustryClient"
-		],
-		"fabric-datagen": [
-			"org.tp211.integrated_industry.IntegratedIndustryDataGenerator"
 		]
 	},
-	"mixins": [
-		"integrated-industry.mixins.json",
-		{
-			"config": "integrated-industry.client.mixins.json",
-			"environment": "client"
-		}
-	],
+	"mixins": [],
 	"depends": {
 		"fabricloader": ">=0.16.12",
 		"minecraft": "~1.20.1",
