@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
-	"id": "integrated-industry",
+	"id": "integrated_industry",
 	"version": "${version}",
 	"name": "Integrated Industry",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Integrated Industry Mod",
 	"authors": [
 		"TP211"
 	],
@@ -12,7 +12,7 @@
 		"sources": "https://github.com/TPCW-DRW-TP211/Integrated-Industry"
 	},
 	"license": "MIT",
-	"icon": "assets/integrated-industry/icon.png",
+	"icon": "assets/integrated_industry/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [

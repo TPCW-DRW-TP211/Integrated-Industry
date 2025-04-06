@@ -22,7 +22,7 @@ loom {
 	splitEnvironmentSourceSets()
 
 	mods {
-		"integrated-industry" {
+		"integrated_industry" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}
